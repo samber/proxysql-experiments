@@ -50,3 +50,10 @@ Query OK, 1 row affected (0.05 sec)
 mysql> SELECT * FROM users;
 ```
 
+**Step 5 (optional)**
+
+Edit ProxySQL configuration
+
+```
+mysql -u admin -padmin -P6033 -h 127.0.0.1
+```
